@@ -1,5 +1,8 @@
 //www.elegoo.com
-//2016.09.19
+//2016.09.19 
+// Author: Lyla Vela
+// Use HC-08 Bluetooth module for scanner to find your device
+// If you are Using a Kookye robot tank, use a different device than the wifi-board, and update the pins as below 
 
 int LED=13;
 volatile int state = LOW;
