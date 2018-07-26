@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44253ED2210954BF00DA278D /* BLEController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44253ED1210954BF00DA278D /* BLEController.swift */; };
 		445F6BF42107AE5B0056C9AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F6BF32107AE5B0056C9AD /* AppDelegate.swift */; };
 		445F6BF62107AE5B0056C9AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F6BF52107AE5B0056C9AD /* ViewController.swift */; };
 		445F6BF92107AE5B0056C9AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445F6BF72107AE5B0056C9AD /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		445F6C012107AE5E0056C9AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445F6BFF2107AE5E0056C9AD /* LaunchScreen.storyboard */; };
 		445F6C0C2107AE5E0056C9AD /* RoboCarTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F6C0B2107AE5E0056C9AD /* RoboCarTestTests.swift */; };
 		445F6C172107AE5E0056C9AD /* RoboCarTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F6C162107AE5E0056C9AD /* RoboCarTestUITests.swift */; };
+		445F6C252107E5FD0056C9AD /* ScanBLETableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F6C242107E5FD0056C9AD /* ScanBLETableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44253ED1210954BF00DA278D /* BLEController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEController.swift; sourceTree = "<group>"; };
 		445F6BF02107AE5B0056C9AD /* RoboCarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboCarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		445F6BF32107AE5B0056C9AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		445F6BF52107AE5B0056C9AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		445F6C122107AE5E0056C9AD /* RoboCarTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoboCarTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		445F6C162107AE5E0056C9AD /* RoboCarTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboCarTestUITests.swift; sourceTree = "<group>"; };
 		445F6C182107AE5E0056C9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445F6C242107E5FD0056C9AD /* ScanBLETableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanBLETableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				445F6BF32107AE5B0056C9AD /* AppDelegate.swift */,
 				445F6BF52107AE5B0056C9AD /* ViewController.swift */,
+				44253ED1210954BF00DA278D /* BLEController.swift */,
 				445F6BF72107AE5B0056C9AD /* Main.storyboard */,
+				445F6C242107E5FD0056C9AD /* ScanBLETableViewController.swift */,
 				445F6BFD2107AE5E0056C9AD /* Assets.xcassets */,
 				445F6BFF2107AE5E0056C9AD /* LaunchScreen.storyboard */,
 				445F6C022107AE5E0056C9AD /* Info.plist */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445F6C252107E5FD0056C9AD /* ScanBLETableViewController.swift in Sources */,
 				445F6BF62107AE5B0056C9AD /* ViewController.swift in Sources */,
+				44253ED2210954BF00DA278D /* BLEController.swift in Sources */,
 				445F6BFC2107AE5B0056C9AD /* RoboCarTest.xcdatamodeld in Sources */,
 				445F6BF42107AE5B0056C9AD /* AppDelegate.swift in Sources */,
 			);
